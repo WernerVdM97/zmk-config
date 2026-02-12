@@ -54,7 +54,7 @@ RC(2,0)      RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(6,0) RC(5,0) RC(5,1) RC(
             , <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 4: jkl;
             , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 5: nm,.
             , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 6: Left Thumb
-            , <&pro_micro 10  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 7: Right Thumb (D0)
+            , <&pro_micro 0  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 7: Right Thumb
             ;
     };
 
@@ -77,11 +77,3 @@ RC(2,0)      RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(6,0) RC(5,0) RC(5,1) RC(
         label = "VBATT";
     };
 };
-
-
-
-
-
-
-
-
