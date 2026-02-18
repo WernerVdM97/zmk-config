@@ -14,30 +14,29 @@
 
 / {
     behaviors {
-        sym_ent: sym_ent {
-            compatible = "zmk,behavior-hold-tap";
-            label = "SYM_ENT";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-            bindings = <&kp ENTER>, <&mo 1>;
-        };
-        num_tab: num_tab {
-            compatible = "zmk,behavior-hold-tap";
-            label = "NUM_TAB";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-            bindings = <&kp TAB>, <&mo 2>;
-        };
-        nav_spc: nav_spc {
-            compatible = "zmk,behavior-hold-tap";
-            label = "NAV_SPC";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-            bindings = <&kp SPACE>, <&mo 3>;
-        };
+      sym_ent: sym_ent {
+          compatible = "zmk,behavior-hold-tap";
+          #binding-cells = <2>;
+          tapping-term-ms = <200>;
+          flavor = "balanced";
+          bindings = <&kp ENTER &mo 1>;
+      };
+      
+      num_tab: num_tab {
+          compatible = "zmk,behavior-hold-tap";
+          #binding-cells = <2>;
+          tapping-term-ms = <200>;
+          flavor = "balanced";
+          bindings = <&kp TAB &mo 2>;
+      };
+      
+      nav_spc: nav_spc {
+          compatible = "zmk,behavior-hold-tap";
+          #binding-cells = <2>;
+          tapping-term-ms = <200>;
+          flavor = "balanced";
+          bindings = <&kp SPACE &mo 3>;
+      };
     };
 };
 
