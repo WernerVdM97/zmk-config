@@ -9,9 +9,9 @@
 #include <dt-bindings/zmk/bt.h>
 
 &mt {
-    tapping-term-ms = <210>;
+    tapping-term-ms = <210>; // must be greater than quick tap!
     flavor = "tap-preferred";
-    quick-tap-ms = <190>;
+    quick-tap-ms = <190>; // must be smaler than tapping term!
 };
 
 / {
