@@ -11,6 +11,7 @@ Optimised for ultra low profile form factor including magnetic case cover and la
 ### ZMK
 
 - [x] Basic layer functionality based on KLORista
+- [ ] Double tap repeats letter
 - [ ] LOL layer
 - [ ] Wasd (on dscf) layer
 
